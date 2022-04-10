@@ -4,7 +4,7 @@ Automat==0.8.0
 blinker==1.4
 certifi==2019.11.28
 chardet==3.0.4
-cliapp==1.20180812.1
+cliapp
 Click==7.0
 cloud-init==21.4
 cmdtest==0.32+git
