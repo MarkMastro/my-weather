@@ -8,7 +8,6 @@ cliapp
 Click==7.0
 cmdtest
 colorama==0.4.3
-command-not-found
 configobj
 constantly
 cryptography
