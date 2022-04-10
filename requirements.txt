@@ -11,7 +11,6 @@ colorama==0.4.3
 configobj
 constantly
 cryptography
-cupshelpers
 dbus-python
 defer
 distlib
