@@ -11,7 +11,7 @@ const Login: React.FC = () =>{
     const logInUser = async () =>{
 
         try{
-            const res = await httpClient.post("//localhost:5000/login", {
+            const res = await httpClient.post("https://stagepage-my-weather.herokuapp.com/login", {
                 email, password
             })
             if (res.status === 200) {

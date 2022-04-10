@@ -15,7 +15,7 @@ function Register() {
     const registerUser = async () =>{
 
         try{
-            const res = await httpClient.post("//localhost:5000/register", {
+            const res = await httpClient.post("https://stagepage-my-weather.herokuapp.com/register", {
                 name, email, password,  city
             })
             if (res.status === 200) {

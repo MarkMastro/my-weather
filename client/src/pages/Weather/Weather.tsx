@@ -15,11 +15,11 @@ function Weather() {
     useEffect(()=>{
         (async() =>{
             try{
-                const res = await httpClient.get("//localhost:5000/@me");
+                const res = await httpClient.get("https://stagepage-my-weather.herokuapp.com/@me");
                 setUser(res.data)
                 const city = res.data.city;
                 console.log(city)
-                const resWeather = await httpClient.post("//localhost:5000/weather",{
+                const resWeather = await httpClient.post("https://stagepage-my-weather.herokuapp.com/weather",{
                     data: {
                         city
                     },
