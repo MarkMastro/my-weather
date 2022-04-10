@@ -1,10 +1,14 @@
-import { BrowserRouter, Switch, Route } from 
- 
+import { BrowserRouter,  Route, Routes } from  "react-router-dom"
+import Login from "./pages/Login"
+import Weather from "./pages/Weather"
 const Router = () =>{
     return(
-        <div>
-
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Login/>}></Route>
+                <Route path="/weather" element={<Weather/>}></Route>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
