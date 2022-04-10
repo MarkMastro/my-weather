@@ -4,9 +4,9 @@ Automat==0.8.0
 blinker==1.4
 certifi==2019.11.28
 chardet==3.0.4
-cliapp
+cliapp==1.20180812.1
 Click==7.0
-cloud-init
+cloud-init==21.4
 cmdtest==0.32+git
 colorama==0.4.3
 command-not-found==0.3
@@ -43,6 +43,7 @@ netifaces==0.10.4
 oauthlib==3.1.0
 packaging==20.3
 pexpect==4.6.0
+pip-chill==1.0.1
 pipenv==11.9.0
 protobuf==3.6.1
 pyasn1==0.4.2
