@@ -70,7 +70,7 @@ six==1.14.0
 sos
 ssh-import-id==5.10
 systemd-python==234
-ttystatus==0.38
+ttystatus
 Twisted==18.9.0
 ubuntu-advantage-tools==27.6
 ufw==0.36
