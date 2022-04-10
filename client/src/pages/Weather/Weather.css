@@ -1,0 +1,21 @@
+.logo{
+    height: 10em;
+}
+
+p{
+    width:80%;
+    font-size: 24px;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
