@@ -55,7 +55,8 @@ def register_user():
     db.session.add(new_user)
     db.session.commit()
 
-
+    session["user_id"] = new_user.id
+    
     return jsonify({
         "id": new_user.id, 
         "email": new_user.email,
@@ -64,6 +65,8 @@ def register_user():
     })
 @app.route("/login", methods=["POST"])
 def login_user():
+    
+
     email = request.json["email"]
     password = request.json["password"]
 
