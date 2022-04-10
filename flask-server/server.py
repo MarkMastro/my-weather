@@ -84,14 +84,12 @@ def login_user():
         })
 @app.route("/weather", methods={'POST'})
 def index():
-    print("helloooo")
     city = request.json["data"]["city"]
-    print("xcity",city)
     url='https://wttr.in/{0}?format=j1'.format(city)
-    req=requests.get('https://wttr.in/?format=j1')
-
+    req=requests.get(url)
+    
     req_dict = json.loads(req.content.decode("utf-8"))
-
+    country=req_dict["nearest_area"][0]["country"][0]["value"]
     temp_C = float(req_dict["current_condition"][0]["temp_C"])
     wind_speed =float(req_dict["current_condition"][0]["windspeedKmph"]) 
 
@@ -101,9 +99,9 @@ def index():
     weather_info = {
         "temp_c" : temp_C,
         "wind_speed" : wind_speed,
-        "wind_chill" : wind_chill
+        "wind_chill" : wind_chill,
+        "country": country
     }
-
     print("weather info",weather_info)
 
     class Switch(dict):
@@ -129,9 +127,10 @@ def index():
         "temp_c" : temp_C,
         "wind_speed" : wind_speed,
         "wind_chill" : wind_chill,
-        "clothing" : clothing
+        "clothing" : clothing,
+        "country": country
+
     }
-    print("tempc",type(temp_C), "speed", type(wind_speed), "chjill", type(wind_chill),"clothing", type(clothing))
 
     return weather_info
 

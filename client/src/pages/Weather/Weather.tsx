@@ -41,7 +41,7 @@ function Weather() {
         <div className='main-div'>
             <img src={logo} alt="logo" className="logo"></img>
           <p>Hello {user.name},</p>
-          <p>The current temperature in {user.city}, with wind chill is {weatherData.wind_chill}°C.</p>
+          <p>The current temperature in {user.city}, {weatherData.country} with wind chill is {weatherData.wind_chill}°C.</p>
           <p>{weatherData.clothing}</p> 
         </div>
          : null }

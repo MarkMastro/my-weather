@@ -10,5 +10,6 @@ export interface WeatherData{
     clothing: string,
     temp_c: number,
     wind_chill: number,
-    wind_speed: number
+    wind_speed: number,
+    country: string
 }
