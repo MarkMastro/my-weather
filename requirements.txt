@@ -6,7 +6,6 @@ certifi==2019.11.28
 chardet==3.0.4
 cliapp
 Click==7.0
-cloud-init
 cmdtest==0.32+git
 colorama==0.4.3
 command-not-found==0.3
