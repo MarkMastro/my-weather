@@ -6,7 +6,7 @@ certifi==2019.11.28
 chardet==3.0.4
 cliapp
 Click==7.0
-cmdtest==0.32+git
+cmdtest
 colorama==0.4.3
 command-not-found==0.3
 configobj==5.0.6
