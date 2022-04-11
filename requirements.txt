@@ -10,11 +10,8 @@ cffi==1.15.0
 chardet==3.0.4
 cliapp
 click
-cloud-init
 cm-rgb
-cmdtest
 colorama
-command-not-found
 configobj
 constantly
 cryptography
