@@ -15,7 +15,6 @@ colorama
 configobj
 constantly
 cryptography
-dbus-python
 defer
 Deprecated
 distlib
@@ -61,9 +60,7 @@ pyasn1
 pyasn1-modules
 pycairo
 pycparser
-pycups
 Pygments
-PyGObject
 PyHamcrest
 PyJWT
 pymacaroons
@@ -73,7 +70,6 @@ pyparsing
 pyRFC3339
 pyrsistent
 pyserial
-python-apt
 python-debian
 python-dotenv
 pytz
