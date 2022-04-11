@@ -89,7 +89,6 @@ sos
 SQLAlchemy
 ssh-import-id
 systemd-python
-ttystatus
 Twisted
 ubuntu-advantage-tools
 ufw
