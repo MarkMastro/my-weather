@@ -8,11 +8,11 @@ cachelib==0.6.0
 certifi==2019.11.28
 cffi==1.15.0
 chardet==3.0.4
-cliapp==1.20180812.1
+cliapp
 click==8.1.2
-cloud-init==21.4
+cloud-init
 cm-rgb==0.3.6
-cmdtest==0.32+git
+cmdtest
 colorama==0.4.3
 command-not-found==0.3
 configobj==5.0.6
