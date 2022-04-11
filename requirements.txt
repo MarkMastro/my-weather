@@ -90,7 +90,6 @@ SQLAlchemy
 ssh-import-id
 systemd-python
 Twisted
-ubuntu-advantage-tools
 ufw
 unattended-upgrades
 urllib3
