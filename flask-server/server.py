@@ -56,7 +56,7 @@ def register_user():
     db.session.commit()
 
     session["user_id"] = new_user.id
-
+    
     return jsonify({
         "id": new_user.id, 
         "email": new_user.email,
@@ -140,5 +140,4 @@ def index():
 
 
 if __name__ == "__main__":
-    p = int(os.environ.get("PORT", 5000))
-    app.run(debug=True, port=p, host='0.0.0.0')
+    app.run(debug=True)
