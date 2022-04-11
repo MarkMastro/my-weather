@@ -15,7 +15,6 @@ colorama
 configobj
 constantly
 cryptography
-cupshelpers
 dbus-python
 defer
 Deprecated
