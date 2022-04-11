@@ -42,7 +42,6 @@ jsonpatch
 jsonpointer
 jsonschema
 keyring
-language-selector
 launchpadlib
 lazr.restfulclient
 lazr.uri
