@@ -90,7 +90,6 @@ SQLAlchemy
 ssh-import-id
 systemd-python
 Twisted
-unattended-upgrades
 urllib3
 virtualenv
 virtualenv-clone
